@@ -176,7 +176,6 @@ export const site = {
           'Book appointment form → Google Apps Script webhook (server-only)',
           'SEO-ready per-route title/meta + accessible Radix UI',
         ],
-        github: 'https://github.com/debayanseple/Dr-Suranajana-Roy-.git',
         live: 'https://dr-suranajana-roy.vercel.app',
       },
       {
@@ -201,7 +200,6 @@ export const site = {
           'Barcode scanning via @zxing/browser',
           'Radix UI + Tailwind v4 responsive system',
         ],
-        github: 'https://github.com/debayanseple/Stock.git',
         live: 'https://stockline-one.vercel.app',
       },
       {
@@ -226,7 +224,6 @@ export const site = {
           'Google Apps Script integrations (copy-functions, webhooks)',
           'Deployed on Netlify/Vercel with Vite build',
         ],
-        github: 'https://github.com/debayanseple/Nritique---Website.git',
         live: 'https://nritique-website.vercel.app',
       },
       {
@@ -251,7 +248,6 @@ export const site = {
           'Frosted-glass cards with hover scale + glow',
           'Optimized low-poly Three.js + silky scroll physics',
         ],
-        github: 'https://github.com/debayanseple/zerotheorys.git',
         live: 'https://zerotheorys.lovable.app',
       },
       {
@@ -267,7 +263,7 @@ export const site = {
         objectPosition: '50% 50%',
         href: '/projects/urban-assist' as string | null,
         tech: ['Next.js 14', 'Supabase', 'Stripe', 'Upstash Redis', 'Firebase FCM', 'Tailwind', 'TypeScript'],
-        status: 'Open source — github.com/Itinerant18/Urban-assist',
+        status: 'Private — UK home services marketplace',
         summary:
           'UK home services marketplace connecting customers with vetted professionals — 3 apps (customer, provider, admin) in a pnpm monorepo with live booking, Stripe payments, Supabase Realtime and KYC.',
         features: [
@@ -276,7 +272,6 @@ export const site = {
           'Stripe payments & webhooks with payout scaffolding',
           'KYC, matching engine & admin review queue',
         ],
-        github: 'https://github.com/Itinerant18/Urban-assist.git',
       },
       {
         slug: 'seple-kb',

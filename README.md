@@ -35,11 +35,11 @@ My work focuses on **UI/UX, frontend development, API integrations and analytics
 - **SEPLE NovaEdge — Knowledge Base** — Technical documentation for Dexter / Hestia / Jarvis deployments — [seplenovaedge.com/kb](https://www.seplenovaedge.com/kb)
 
 **Independent – Web**
-- **Dr. Suranjana Roy — Clinic Portfolio** — Oral & Maxillofacial Surgeon — [Live](https://dr-suranajana-roy.vercel.app) · [GitHub](https://github.com/debayanseple/Dr-Suranajana-Roy-.git)
-- **Stock — Portfolio Tracker** — Real-time portfolio & barcode scanning — [Live](https://stockline-one.vercel.app) · [GitHub](https://github.com/debayanseple/Stock.git)
-- **Nritique — Website** — Fashion & lifestyle brand website — [Live](https://nritique-website.vercel.app) · [GitHub](https://github.com/debayanseple/Nritique---Website.git)
-- **Zero Theorys — 3D Digital Agency** — Glassmorphism, neon & 3D carousel — [Live](https://zerotheorys.lovable.app) · [GitHub](https://github.com/debayanseple/zerotheorys.git)
-- **Urban Assist — UK Home Services Marketplace** — Customer / Provider / Admin monorepo — [GitHub](https://github.com/Itinerant18/Urban-assist.git)
+- **Dr. Suranjana Roy — Clinic Portfolio** — Oral & Maxillofacial Surgeon — [Live](https://dr-suranajana-roy.vercel.app)
+- **Stock — Portfolio Tracker** — Real-time portfolio & barcode scanning — [Live](https://stockline-one.vercel.app)
+- **Nritique — Website** — Fashion & lifestyle brand website — [Live](https://nritique-website.vercel.app)
+- **Zero Theorys — 3D Digital Agency** — Glassmorphism, neon & 3D carousel — [Live](https://zerotheorys.lovable.app)
+- **Urban Assist — UK Home Services Marketplace** — Customer / Provider / Admin monorepo
 
 ---
 
