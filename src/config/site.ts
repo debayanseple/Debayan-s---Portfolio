@@ -334,7 +334,7 @@ export const site = {
      */
     links: [
       { label: 'LinkedIn', href: 'https://www.linkedin.com/in/debayan-chakraborty-developer' as string | null },
-      { label: 'Portfolio', href: null as string | null },
+      { label: 'Portfolio', href: 'https://debayansportfolio.vercel.app/' as string | null },
       { label: 'Email', href: 'mailto:deepchakraborty431@gmail.com' as string | null },
       { label: '+91 8001316145', href: 'tel:+918001316145' as string | null },
     ],
