@@ -10,15 +10,41 @@ export function generateStaticParams() {
   return site.studio.items.map((p) => ({ slug: (p as { slug: string }).slug }))
 }
 
+const siteUrl = 'https://debayansportfolio.vercel.app'
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const project = site.studio.items.find((p) => (p as { slug: string }).slug === slug) as
-    | (typeof site.studio.items)[number] & { title: string; summary: string }
+    | (typeof site.studio.items)[number] & {
+        title: string
+        summary: string
+        tech: readonly string[]
+        author: string
+      }
     | undefined
-  if (!project) return { title: 'Project not found — DEBAYAN' }
+  if (!project) return { title: 'Project not found — Debayan Chakraborty' }
+  const url = `${siteUrl}/projects/${slug}`
+  const index = site.studio.items.findIndex((p) => (p as { slug: string }).slug === slug)
+  const image = assets.studio[index] ? `${siteUrl}${assets.studio[index]}` : `${siteUrl}/assets/avatar.webp`
   return {
-    title: `${project.title} — DEBAYAN`,
+    title: project.title,
     description: project.summary,
+    keywords: [...project.tech, project.author],
+    alternates: { canonical: url },
+    openGraph: {
+      title: `${project.title} — Debayan Chakraborty`,
+      description: project.summary,
+      url,
+      siteName: 'Debayan Chakraborty — Portfolio',
+      type: 'article',
+      images: [{ url: image, width: 1200, height: 630, alt: project.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${project.title} — Debayan Chakraborty`,
+      description: project.summary,
+      images: [image],
+    },
   }
 }
 
